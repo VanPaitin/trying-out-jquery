@@ -22,3 +22,9 @@ body {
 #pen-color {
   margin-top: 20px;
 }
+
+.wrapper {
+  outline-style: solid;
+  outline-width: 0.2px;
+  display: inline-block;
+}

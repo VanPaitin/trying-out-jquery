@@ -54,7 +54,7 @@ function generateDivs(numberOfRows) {
   var childHeight = size/numberOfRows
   $('.container').empty()
   for (var i = 1; i <= (numberOfRows * numberOfRows); i++) {
-    $('<div class="child-div"></div>').appendTo('.container')
+    $('<div class="wrapper"><div class="child-div"></div></div>').appendTo('.container')
   }
   $('.child-div').css({"height": childHeight + "px",
                        "width": childHeight + "px"})
